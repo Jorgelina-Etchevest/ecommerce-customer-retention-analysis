@@ -12,7 +12,7 @@ Customer retention is one of the main challenges faced by e-commerce companies. 
 
 This project analyzes customer purchasing behavior using the Brazilian **Olist E-commerce Dataset** to identify the factors associated with customer recurrence and develop predictive models capable of identifying customers with a high probability of not returning.
 
-The project was developed as the **Capstone Project** of the **University Diploma in Data Science, Artificial Intelligence and its Applications in Economics and Business**.
+The project was developed as the Capstone Project of the **University Diploma in Data Science, Artificial Intelligence and its Applications in Economics and Business**.
 
 ---
 
@@ -24,65 +24,47 @@ The main objective of this project is to answer the following business question:
 
 ---
 
-## Project Structure
+## Skills Demonstrated
+
+- Data Cleaning
+- Data Integration
+- Feature Engineering
+- Exploratory Data Analysis (EDA)
+- Statistical Modeling
+- Machine Learning
+- Natural Language Processing (NLP)
+- Deep Learning
+- Business Analytics
+- Customer Retention Analysis
+
+---
+
+## Project Workflow
 
 ### Part 1 — Data Preparation, Exploratory Analysis and Statistical Modeling
 
-📓 **Notebook**
+Data integration, exploratory analysis, regression models, Principal Component Analysis (PCA) and clustering.
 
-`notebooks/01_data_preparation_and_eda.ipynb`
-
-Main tasks:
-
-- Data integration
-- Data cleaning
-- Exploratory Data Analysis (EDA)
-- Feature engineering
-- Regression analysis
-- Principal Component Analysis (PCA)
-- Hierarchical Clustering
+**Notebook:**  
+[01_data_preparation_and_eda.ipynb](./notebooks/01_data_preparation_and_eda.ipynb)
 
 ---
 
 ### Part 2 — Machine Learning Models
 
-📓 **Notebook**
+Customer recurrence prediction using Decision Trees, Random Forest, K-Nearest Neighbors (KNN), Perceptron and Support Vector Machine (SVM).
 
-`notebooks/02_machine_learning_models.ipynb`
-
-Models evaluated:
-
-- Decision Tree
-- Random Forest
-- K-Nearest Neighbors (KNN)
-- Perceptron
-- Support Vector Machine (SVM)
-
-Model comparison was performed using:
-
-- Accuracy
-- Precision
-- Recall
-- ROC Curve
-- Precision–Recall Curve
+**Notebook:**  
+[02_machine_learning_models.ipynb](./notebooks/02_machine_learning_models.ipynb)
 
 ---
 
-### Part 3 — Natural Language Processing
+### Part 3 — Natural Language Processing and Sentiment Analysis
 
-📓 **Notebook**
+Sentiment analysis using Word Embeddings and Deep Learning techniques applied to customer reviews.
 
-`notebooks/03_nlp_sentiment_analysis.ipynb`
-
-This stage analyzes customer reviews using Natural Language Processing and Deep Learning techniques.
-
-Main tasks:
-
-- Text preprocessing
-- Word embeddings
-- Neural Network
-- Sentiment Classification
-- Analysis of misclassified reviews
+**Notebook:**  
+[03_nlp_sentiment_analysis.ipynb](./notebooks/03_nlp_sentiment_analysis.ipynb)
 
 ---
 
@@ -90,25 +72,26 @@ Main tasks:
 
 The analytical database was created by integrating multiple datasets from the Olist marketplace.
 
-![Database Integration](images/Union%20de%20bases.png)
+![Database Integration](images/database_integration.png)
 
 ---
 
 ## Final Report
 
-A complete report describing the methodology, results and business recommendations is available here:
+A complete report describing the methodology, results and business recommendations is available below.
 
-📄 `reports/Customer_Retention_Analysis_Report.pdf`
+**Project Report:**  
+[Customer Retention Analysis Report](./reports/Customer_Retention_Analysis_Report.pdf)
 
 ---
 
 ## Main Findings
 
-The analysis revealed that **shipping cost** is one of the strongest factors associated with customer non-recurrence.
+The analysis revealed that **shipping cost** is one of the variables most strongly associated with customer non-recurrence.
 
-Among the evaluated Machine Learning models, **Random Forest** achieved the best predictive performance.
+Among all evaluated Machine Learning models, **Random Forest** achieved the best predictive performance.
 
-The NLP model complemented the structured analysis by extracting valuable insights from customer reviews, highlighting the complexity of customer satisfaction and sentiment.
+The Natural Language Processing model complemented the structured analysis by extracting valuable insights from customer reviews and highlighting the complexity of customer sentiment.
 
 ---
 
@@ -121,7 +104,7 @@ Based on the analytical results, the following actions were proposed:
 - Product recommendation systems
 - Targeted marketing campaigns
 - Customer segmentation
-- Data-driven retention strategies
+- Data-driven customer retention strategies
 
 ---
 
@@ -133,8 +116,8 @@ Based on the analytical results, the following actions were proposed:
 - Scikit-learn
 - Statsmodels
 - TensorFlow / Keras
-- Natural Language Processing (NLP)
 - Machine Learning
+- Natural Language Processing
 - Deep Learning
 - Statistical Analysis
 
@@ -147,6 +130,7 @@ ecommerce-customer-retention-analysis/
 │
 ├── data/
 ├── images/
+│   └── database_integration.png
 ├── notebooks/
 │   ├── 01_data_preparation_and_eda.ipynb
 │   ├── 02_machine_learning_models.ipynb
@@ -162,5 +146,5 @@ ecommerce-customer-retention-analysis/
 **Jorgelina Etchevest**
 Economist | Business & Data Analyst
 
-**Skills**
+**Technical Skills**
 Python • SQL • Tableau • Power BI • Machine Learning • NLP • Business Analytics
