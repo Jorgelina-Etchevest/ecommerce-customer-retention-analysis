@@ -1,6 +1,6 @@
 # E-commerce Customer Retention Analysis
 
-**Business Analytics & Machine Learning Project**
+**Business Analytics | Machine Learning | Natural Language Processing**
 
 Predicting customer repurchase behavior using the Brazilian Olist E-commerce Dataset.
 
@@ -8,101 +8,120 @@ Predicting customer repurchase behavior using the Brazilian Olist E-commerce Dat
 
 ## Project Overview
 
-This project analyzes customer purchasing behavior using the Olist Brazilian E-commerce Dataset.
+Customer retention is one of the main challenges faced by e-commerce companies. Acquiring a new customer is considerably more expensive than retaining an existing one, making customer loyalty a key business objective.
 
-The objective was to identify the factors associated with customer repurchase behavior and develop predictive models capable of identifying customers with a high probability of not returning.
+This project analyzes customer purchasing behavior using the Brazilian **Olist E-commerce Dataset** to identify the factors associated with customer recurrence and develop predictive models capable of identifying customers with a high probability of not returning.
 
-It was developed as the **Capstone Project** of the **University Diploma in Data Science, Artificial Intelligence and its Applications in Economics and Business**.
-
-📄 **Complete Project Report:**  
-[Customer Retention Analysis Report](reports/Customer_Retention_Analysis_Report.pdf)
+The project was developed as the **Capstone Project** of the **University Diploma in Data Science, Artificial Intelligence and its Applications in Economics and Business**.
 
 ---
 
-## Data Integration
+## Business Objective
 
-The analytical database was built by integrating multiple datasets from the Olist marketplace.
+The main objective of this project is to answer the following business question:
+
+> **How can an e-commerce company identify customers who are unlikely to return and implement effective customer retention strategies?**
+
+---
+
+## Project Structure
+
+### Part 1 — Data Preparation, Exploratory Analysis and Statistical Modeling
+
+📓 **Notebook**
+
+`notebooks/01_data_preparation_and_eda.ipynb`
+
+Main tasks:
+
+- Data integration
+- Data cleaning
+- Exploratory Data Analysis (EDA)
+- Feature engineering
+- Regression analysis
+- Principal Component Analysis (PCA)
+- Hierarchical Clustering
+
+---
+
+### Part 2 — Machine Learning Models
+
+📓 **Notebook**
+
+`notebooks/02_machine_learning_models.ipynb`
+
+Models evaluated:
+
+- Decision Tree
+- Random Forest
+- K-Nearest Neighbors (KNN)
+- Perceptron
+- Support Vector Machine (SVM)
+
+Model comparison was performed using:
+
+- Accuracy
+- Precision
+- Recall
+- ROC Curve
+- Precision–Recall Curve
+
+---
+
+### Part 3 — Natural Language Processing
+
+📓 **Notebook**
+
+`notebooks/03_nlp_sentiment_analysis.ipynb`
+
+This stage analyzes customer reviews using Natural Language Processing and Deep Learning techniques.
+
+Main tasks:
+
+- Text preprocessing
+- Word embeddings
+- Neural Network
+- Sentiment Classification
+- Analysis of misclassified reviews
+
+---
+
+## Database Integration
+
+The analytical database was created by integrating multiple datasets from the Olist marketplace.
 
 ![Database Integration](images/Union%20de%20bases.png)
 
 ---
 
-## Business Problem
+## Final Report
 
-Customer retention is one of the most important challenges in e-commerce.
+A complete report describing the methodology, results and business recommendations is available here:
 
-Acquiring a new customer is considerably more expensive than retaining an existing one.
-
-This project aims to answer the following business question:
-
-**How can an e-commerce company identify customers who are unlikely to return and design effective retention strategies?**
+📄 `reports/Customer_Retention_Analysis_Report.pdf`
 
 ---
 
-## Dataset
+## Main Findings
 
-The analysis integrates information from multiple sources:
+The analysis revealed that **shipping cost** is one of the strongest factors associated with customer non-recurrence.
 
-- Customers
-- Orders
-- Order Items
-- Payments
-- Reviews
-- Products
-- Sellers
+Among the evaluated Machine Learning models, **Random Forest** achieved the best predictive performance.
 
-After data integration, a unified analytical dataset was created for statistical analysis and predictive modeling.
-
----
-
-## Methodology
-
-The project followed a complete Business Analytics workflow:
-
-- Data integration
-- Data cleaning
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-- Statistical Analysis
-- Principal Component Analysis (PCA)
-- Customer Segmentation
-- Machine Learning
-- Natural Language Processing (NLP)
-- Business Recommendations
-
----
-
-## Machine Learning Models
-
-Several supervised learning algorithms were evaluated:
-
-- Decision Tree
-- Random Forest
-- K-Nearest Neighbors (KNN)
-- Support Vector Machine (SVM)
-
-The models were compared using classification metrics to identify the best predictive solution.
-
----
-
-## Key Findings
-
-The analysis identified **shipping cost** as one of the variables most strongly associated with customer non-recurrence.
-
-The results suggest that logistics costs have a significant impact on customer loyalty and should be considered when designing customer retention strategies.
+The NLP model complemented the structured analysis by extracting valuable insights from customer reviews, highlighting the complexity of customer satisfaction and sentiment.
 
 ---
 
 ## Business Recommendations
 
-Based on the analysis, the following actions were proposed:
+Based on the analytical results, the following actions were proposed:
 
 - Personalized shipping discounts
-- Customer loyalty campaigns
-- Product recommendation strategies
+- Customer loyalty programs
+- Product recommendation systems
+- Targeted marketing campaigns
 - Customer segmentation
-- Marketing campaigns for high-risk customers
-- Data-driven customer retention strategies
+- Data-driven retention strategies
 
 ---
 
@@ -113,26 +132,35 @@ Based on the analysis, the following actions were proposed:
 - NumPy
 - Scikit-learn
 - Statsmodels
+- TensorFlow / Keras
+- Natural Language Processing (NLP)
 - Machine Learning
+- Deep Learning
 - Statistical Analysis
-- Business Analytics
 
 ---
 
-## Repository Contents
+## Repository Structure
 
-- Analytical datasets
-- Python notebooks
-- Project report
-- Supporting images
-- Data integration files
+```
+ecommerce-customer-retention-analysis/
+│
+├── data/
+├── images/
+├── notebooks/
+│   ├── 01_data_preparation_and_eda.ipynb
+│   ├── 02_machine_learning_models.ipynb
+│   └── 03_nlp_sentiment_analysis.ipynb
+├── reports/
+│   └── Customer_Retention_Analysis_Report.pdf
+└── README.md
+```
 
 ---
 
 ## Author
-
 **Jorgelina Etchevest**
-
 Economist | Business & Data Analyst
-Python • SQL • Power BI • Tableau • Machine Learning
 
+**Skills**
+Python • SQL • Tableau • Power BI • Machine Learning • NLP • Business Analytics
