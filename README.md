@@ -1,4 +1,5 @@
 # E-commerce Customer Retention Analysis
+
 **Business Analytics & Machine Learning Project**
 
 Predicting customer repurchase behavior using the Brazilian Olist E-commerce Dataset.
@@ -7,35 +8,50 @@ Predicting customer repurchase behavior using the Brazilian Olist E-commerce Dat
 
 ## Project Overview
 
-Customer retention is one of the most important challenges in e-commerce. Acquiring a new customer is significantly more expensive than retaining an existing one.
+This project analyzes customer purchasing behavior using the Olist Brazilian E-commerce Dataset.
 
-The objective of this project was to identify the factors associated with customer repurchase behavior and develop predictive models capable of identifying customers with a high probability of not returning.
+The objective was to identify the factors associated with customer repurchase behavior and develop predictive models capable of identifying customers with a high probability of not returning.
 
-This project was developed as the **Capstone Project** of the **University Diploma in Data Science, Artificial Intelligence and its Applications in Economics and Business**.
+It was developed as the **Capstone Project** of the **University Diploma in Data Science, Artificial Intelligence and its Applications in Economics and Business**.
+
+📄 **Complete Project Report:**  
+[Customer Retention Analysis Report](reports/Customer_Retention_Analysis_Report.pdf)
+
+---
+
+## Data Integration
+
+The analytical database was built by integrating multiple datasets from the Olist marketplace.
+
+![Database Integration](images/Union%20de%20bases.png)
 
 ---
 
 ## Business Problem
 
-**How can an e-commerce company identify customers who are unlikely to return and design strategies to improve customer retention?**
+Customer retention is one of the most important challenges in e-commerce.
 
-Using transactional data from the Olist marketplace, this project combines statistical analysis and Machine Learning techniques to transform customer behavior into actionable business insights.
+Acquiring a new customer is considerably more expensive than retaining an existing one.
+
+This project aims to answer the following business question:
+
+**How can an e-commerce company identify customers who are unlikely to return and design effective retention strategies?**
 
 ---
 
 ## Dataset
 
-The analysis was based on the **Olist Brazilian E-commerce Dataset**, integrating information from multiple sources:
+The analysis integrates information from multiple sources:
 
-* Customers
-* Orders
-* Order Items
-* Payments
-* Reviews
-* Products
-* Sellers
+- Customers
+- Orders
+- Order Items
+- Payments
+- Reviews
+- Products
+- Sellers
 
-After integrating the different datasets, a unified analytical database was created for statistical analysis and predictive modeling.
+After data integration, a unified analytical dataset was created for statistical analysis and predictive modeling.
 
 ---
 
@@ -43,16 +59,16 @@ After integrating the different datasets, a unified analytical database was crea
 
 The project followed a complete Business Analytics workflow:
 
-* Data integration
-* Data cleaning
-* Exploratory Data Analysis (EDA)
-* Feature engineering
-* Statistical analysis
-* Principal Component Analysis (PCA)
-* Customer segmentation
-* Machine Learning models
-* Natural Language Processing (NLP)
-* Business recommendations
+- Data integration
+- Data cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Statistical Analysis
+- Principal Component Analysis (PCA)
+- Customer Segmentation
+- Machine Learning
+- Natural Language Processing (NLP)
+- Business Recommendations
 
 ---
 
@@ -60,12 +76,12 @@ The project followed a complete Business Analytics workflow:
 
 Several supervised learning algorithms were evaluated:
 
-* Decision Tree
-* Random Forest
-* K-Nearest Neighbors (KNN)
-* Support Vector Machine (SVM)
+- Decision Tree
+- Random Forest
+- K-Nearest Neighbors (KNN)
+- Support Vector Machine (SVM)
 
-Model performance was compared using classification metrics to identify the best predictive approach.
+The models were compared using classification metrics to identify the best predictive solution.
 
 ---
 
@@ -73,47 +89,43 @@ Model performance was compared using classification metrics to identify the best
 
 The analysis identified **shipping cost** as one of the variables most strongly associated with customer non-recurrence.
 
-This finding suggests that logistics costs have a significant impact on customer loyalty and should be considered when designing customer retention strategies.
+The results suggest that logistics costs have a significant impact on customer loyalty and should be considered when designing customer retention strategies.
 
 ---
 
 ## Business Recommendations
 
-Based on the results, the following actions were proposed:
+Based on the analysis, the following actions were proposed:
 
-* Personalized shipping discounts
-* Customer loyalty campaigns
-* Product recommendation strategies
-* Customer segmentation
-* Marketing campaigns for high-risk customers
-* Data-driven customer retention strategies
+- Personalized shipping discounts
+- Customer loyalty campaigns
+- Product recommendation strategies
+- Customer segmentation
+- Marketing campaigns for high-risk customers
+- Data-driven customer retention strategies
 
 ---
 
 ## Technologies
 
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
-* Statsmodels
-* Machine Learning
-* Statistical Analysis
-* Business Analytics
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Statsmodels
+- Machine Learning
+- Statistical Analysis
+- Business Analytics
 
 ---
 
-## Repository Structure
+## Repository Contents
 
-```text
-ecommerce-customer-retention-analysis/
-│
-├── data/
-├── images/
-├── reports/
-├── README.md
-└── Project_Report.pdf
-```
+- Analytical datasets
+- Python notebooks
+- Project report
+- Supporting images
+- Data integration files
 
 ---
 
