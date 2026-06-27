@@ -1,13 +1,13 @@
-# 📊 E-commerce Customer Retention Analysis
+# E-commerce Customer Retention Analysis
+**Business Analytics & Machine Learning Project**
 
-> **Business Analytics & Machine Learning Project**
-> Predicting customer retention using the Brazilian Olist E-commerce Dataset.
+Predicting customer repurchase behavior using the Brazilian Olist E-commerce Dataset.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
-Customer retention is one of the biggest challenges in e-commerce. Acquiring a new customer is considerably more expensive than retaining an existing one.
+Customer retention is one of the most important challenges in e-commerce. Acquiring a new customer is significantly more expensive than retaining an existing one.
 
 The objective of this project was to identify the factors associated with customer repurchase behavior and develop predictive models capable of identifying customers with a high probability of not returning.
 
@@ -15,19 +15,17 @@ This project was developed as the **Capstone Project** of the **University Diplo
 
 ---
 
-# 🎯 Business Problem
+## Business Problem
 
-**How can an e-commerce company identify customers who are unlikely to return and implement strategies to improve customer retention?**
+**How can an e-commerce company identify customers who are unlikely to return and design strategies to improve customer retention?**
 
-Using historical transactional data, this project combines statistical analysis and Machine Learning to transform customer behavior into actionable business insights.
+Using transactional data from the Olist marketplace, this project combines statistical analysis and Machine Learning techniques to transform customer behavior into actionable business insights.
 
 ---
 
-# 📂 Dataset
+## Dataset
 
-The analysis integrates multiple datasets from the **Olist Brazilian E-commerce Dataset**.
-
-Main data sources:
+The analysis was based on the **Olist Brazilian E-commerce Dataset**, integrating information from multiple sources:
 
 * Customers
 * Orders
@@ -37,68 +35,62 @@ Main data sources:
 * Products
 * Sellers
 
-After data integration, a unified analytical dataset was created for modeling and business analysis.
+After integrating the different datasets, a unified analytical database was created for statistical analysis and predictive modeling.
 
 ---
 
-# ⚙️ Project Workflow
+## Methodology
 
-✔ Data Integration
+The project followed a complete Business Analytics workflow:
 
-✔ Data Cleaning
-
-✔ Exploratory Data Analysis (EDA)
-
-✔ Feature Engineering
-
-✔ Statistical Analysis
-
-✔ Principal Component Analysis (PCA)
-
-✔ Customer Segmentation
-
-✔ Machine Learning Models
-
-✔ Natural Language Processing (NLP)
-
-✔ Business Recommendations
+* Data integration
+* Data cleaning
+* Exploratory Data Analysis (EDA)
+* Feature engineering
+* Statistical analysis
+* Principal Component Analysis (PCA)
+* Customer segmentation
+* Machine Learning models
+* Natural Language Processing (NLP)
+* Business recommendations
 
 ---
 
-# 🤖 Machine Learning Models
+## Machine Learning Models
 
-The following supervised learning algorithms were evaluated:
+Several supervised learning algorithms were evaluated:
 
 * Decision Tree
 * Random Forest
 * K-Nearest Neighbors (KNN)
 * Support Vector Machine (SVM)
 
-Model performance was compared using classification metrics to identify the most effective solution.
+Model performance was compared using classification metrics to identify the best predictive approach.
 
 ---
 
-# 📈 Key Findings
+## Key Findings
 
-The analysis revealed that **shipping cost** was one of the variables most strongly associated with customer non-recurrence.
-This suggests that logistics costs play a significant role in customer loyalty and should be considered when designing retention strategies.
+The analysis identified **shipping cost** as one of the variables most strongly associated with customer non-recurrence.
+
+This finding suggests that logistics costs have a significant impact on customer loyalty and should be considered when designing customer retention strategies.
 
 ---
 
-# 💡 Business Recommendations
+## Business Recommendations
 
-Based on the analysis, the following actions were proposed:
+Based on the results, the following actions were proposed:
 
 * Personalized shipping discounts
 * Customer loyalty campaigns
 * Product recommendation strategies
 * Customer segmentation
-* Marketing actions for high-risk customers
+* Marketing campaigns for high-risk customers
 * Data-driven customer retention strategies
 
 ---
 
-# 🛠 Technologies
+## Technologies
 
 * Python
 * Pandas
@@ -111,24 +103,23 @@ Based on the analysis, the following actions were proposed:
 
 ---
 
-# 📁 Repository Structure
+## Repository Structure
 
 ```text
-📦 ecommerce-customer-retention-analysis
- ┣ 📂 data
- ┣ 📂 images
- ┣ 📄 README.md
- ┗ 📄 Project Report.pdf
+ecommerce-customer-retention-analysis/
+│
+├── data/
+├── images/
+├── reports/
+├── README.md
+└── Project_Report.pdf
 ```
 
 ---
 
-# 👩‍💼 Author
+## Author
 
-## Jorgelina Etchevest
-**Economist | Business & Data Analyst**
-Transforming data into business decisions through Economics, Statistics and Machine Learning.
+**Jorgelina Etchevest**
+Economist | Business & Data Analyst
+Python • SQL • Power BI • Tableau • Machine Learning
 
----
-
-⭐ If you found this project interesting, feel free to connect with me on LinkedIn.
