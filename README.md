@@ -132,6 +132,7 @@ Based on the analysis, the following actions were proposed:
 ## Author
 
 **Jorgelina Etchevest**
+
 Economist | Business & Data Analyst
 Python • SQL • Power BI • Tableau • Machine Learning
 
