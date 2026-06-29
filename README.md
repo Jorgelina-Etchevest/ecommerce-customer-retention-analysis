@@ -30,25 +30,24 @@ The project addresses the following business question:
 
 # Skills Demonstrated
 
-| Data Analytics                  | Machine Learning            |
-| ------------------------------- | --------------------------- |
-| Data Cleaning                   | Machine Learning            |
-| Data Integration                | Deep Learning               |
-| Feature Engineering             | Natural Language Processing |
+| Data Analytics | Machine Learning |
+|----------------|------------------|
+| Data Cleaning | Machine Learning |
+| Data Integration | Deep Learning |
+| Feature Engineering | Natural Language Processing |
 | Exploratory Data Analysis (EDA) | Customer Retention Modeling |
-| Statistical Modeling            | Business Analytics          |
+| Statistical Modeling | Business Analytics |
 
 ---
 
 # Project Workflow
 
-## Part 1 — Data Preparation, Exploratory Analysis and Statistical Modeling
+## Part 1 — Data Preparation, Exploratory Data Analysis and Statistical Modeling
 
 This notebook covers data integration, exploratory data analysis, statistical modeling, Principal Component Analysis (PCA), and customer segmentation through clustering techniques.
 
-**Notebook**
-
-`01_data_preparation_and_eda.ipynb`
+**Notebook:**  
+[01_data_preparation_and_eda.ipynb](notebooks/01_data_preparation_and_eda.ipynb)
 
 ---
 
@@ -56,15 +55,14 @@ This notebook covers data integration, exploratory data analysis, statistical mo
 
 This notebook develops and compares several supervised Machine Learning models to predict customer recurrence, including:
 
-* Decision Tree
-* Random Forest
-* K-Nearest Neighbors (KNN)
-* Perceptron
-* Support Vector Machine (SVM)
+- Decision Tree
+- Random Forest
+- K-Nearest Neighbors (KNN)
+- Perceptron
+- Support Vector Machine (SVM)
 
-**Notebook**
-
-`02_machine_learning_models.ipynb`
+**Notebook:**  
+[02_machine_learning_models.ipynb](notebooks/02_machine_learning_models.ipynb)
 
 ---
 
@@ -72,9 +70,8 @@ This notebook develops and compares several supervised Machine Learning models t
 
 This notebook analyzes customer reviews using Natural Language Processing and Deep Learning techniques to identify sentiment patterns associated with customer satisfaction.
 
-**Notebook**
-
-`03_nlp_sentiment_analysis.ipynb`
+**Notebook:**  
+[03_nlp_sentiment_analysis.ipynb](notebooks/03_nlp_sentiment_analysis.ipynb)
 
 ---
 
@@ -82,24 +79,26 @@ This notebook analyzes customer reviews using Natural Language Processing and De
 
 The analytical dataset was created by integrating multiple transactional datasets from the Olist marketplace into a unified customer-level analytical dataset.
 
-*(Insert database schema image here)*
+<p align="center">
+<img src="images/Union%20de%20bases.png" width="900">
+</p>
 
 ---
 
 # Business Case Study
 
-A complete business-oriented case study describing the business problem, analytical methodology, predictive models, key findings, and business recommendations is available in:
+A complete business-oriented case study describing the business problem, analytical methodology, predictive models, key findings, and business recommendations is available here:
 
-📄 `reports/Business_Case_Study_Olist.pdf`
+**[Business_Case_Study_Olist.pdf](reports/Business_Case_Study_Olist.pdf)**
 
 ---
 
 # Main Findings
 
-* Shipping cost emerged as one of the strongest predictors of customer non-recurrence.
-* Random Forest achieved the best balance between predictive performance and business interpretability.
-* Customer reviews provided valuable qualitative insights that complemented structured transactional data.
-* Logistics variables play a central role in customer retention strategies.
+- Shipping cost emerged as one of the strongest predictors of customer non-recurrence.
+- Random Forest achieved the best balance between predictive performance and business interpretability.
+- Customer reviews provided valuable qualitative insights that complemented structured transactional data.
+- Logistics variables play a central role in customer retention strategies.
 
 ---
 
@@ -107,29 +106,29 @@ A complete business-oriented case study describing the business problem, analyti
 
 Based on the analytical results, the following business actions are proposed:
 
-* Personalized shipping incentives
-* Customer loyalty programs
-* Product recommendation systems
-* Targeted marketing campaigns
-* Customer segmentation
-* Review-based service recovery
-* Data-driven customer retention strategies
+- Personalized shipping incentives
+- Customer loyalty programs
+- Product recommendation systems
+- Targeted marketing campaigns
+- Customer segmentation
+- Review-based service recovery
+- Data-driven customer retention strategies
 
 ---
 
 # Technologies
 
-* Python
-* SQL
-* Pandas
-* NumPy
-* Scikit-learn
-* Statsmodels
-* TensorFlow / Keras
-* Machine Learning
-* Natural Language Processing
-* Deep Learning
-* Business Analytics
+- Python
+- SQL
+- Pandas
+- NumPy
+- Scikit-learn
+- Statsmodels
+- TensorFlow / Keras
+- Machine Learning
+- Natural Language Processing
+- Deep Learning
+- Business Analytics
 
 ---
 
@@ -137,15 +136,18 @@ Based on the analytical results, the following business actions are proposed:
 
 ```text
 ecommerce-customer-retention-analysis/
-
 │
 ├── images/
+│   └── Union de bases.png
+│
 ├── notebooks/
 │   ├── 01_data_preparation_and_eda.ipynb
 │   ├── 02_machine_learning_models.ipynb
 │   └── 03_nlp_sentiment_analysis.ipynb
+│
 ├── reports/
 │   └── Business_Case_Study_Olist.pdf
+│
 ├── README.md
 │
 ├── olist_customers_dataset.csv
@@ -158,7 +160,7 @@ ecommerce-customer-retention-analysis/
 
 # Author
 
-**Jorgelina Etchevest**
+## Jorgelina Etchevest
 **Economist | Business Analyst | Data Analyst**
 
 **Technical Skills**
