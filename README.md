@@ -132,6 +132,21 @@ Based on the analytical results, the following business actions are proposed:
 
 ---
 
+# Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Jorgelina-Etchevest/ecommerce-customer-retention-analysis.git
+```
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+---
+
 # Repository Structure
 
 ```text
